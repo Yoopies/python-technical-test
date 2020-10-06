@@ -32,20 +32,21 @@ For this project:
 
 You need to create an API to help manage vacations including:
 * Models and relationships for the various entities
-* Features logic
-* Routes to interact with features
+* Features logic (see below)
+* Endpoints to interact with features
 
-Your API should be able to handle the following features:
-* Create, update and delete vacations.
-* Search for employees in vacations given various parameters.
-* When a vacation overlaps (or is contiguous to) another one, merge them into one. 
-Only works with vacations of the same type, else it will fails.
+Your API should be able to handle **at least** the following features:
+* Create employees
+* Create, update and delete vacations
+* Search for employees on vacation given various parameters
+* When a vacation overlaps (or is contiguous to) another one, merge them into one.
+Only works with vacations of the same type, else it will fail.
 
 
 #### Bonus features
 If you have the time/will, you can implement one or two more features:
 * Searching should also return the number of vacation days for each employee (given the search parameters).
-* Compare two employees and return the days they will be both in vacations
+* Compare two employees and return the days they will be both on vacation
 
 
 ## What we expect
@@ -54,6 +55,5 @@ It should not take more than 4 hours to finish.
 
 Your answer to this test should be a repository. Please refrain from forking this repository.
 
-Feel free to implement this project in whatever way you feel like, 
-you are totally free and we do not impose any limitations/requirements.
+Feel free to implement this project in whatever way you feel like, we do not impose any limitations/requirements.
 You can choose any framework (or no framework), any design pattern (or none), any database (or none) for this.
