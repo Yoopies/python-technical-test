@@ -26,7 +26,7 @@ A vacation has:
 For this project:
 * There is no half-day leaves, only complete days.
 * There is no employee balance.
-
+* Employees work a typical work week of 5/7 with weekends being on Saturday-Sunday
 
 ## The project
 
