@@ -39,7 +39,7 @@ Your API should be able to handle **at least** the following features:
 * Create employees
 * Create, update and delete vacations
 * Search for employees on vacation given various parameters
-* When a vacation overlaps (or is contiguous to) another one, merge them into one.
+* When creating or updating a vacation, if it overlaps (or is contiguous to) another one, merge them into one.
 Only works with vacations of the same type, else it will fail.
 
 
